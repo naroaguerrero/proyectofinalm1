@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="nav-main">
+      <ul>
+        <li>
+        <a href="index.html" class="">INICIO</a>
+        </li>
+        <li>
+        <a id="productos" href="">NUESTROS PRODUCTOS</a>
+        </li>
+        <li>
+        <a href="recetas.html">COMIDAS FAVORITAS</a>
+        </li>
+        <li>
+        <a href="nosotros.html">SOBRE NOSOTROS</a>
+        </li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+      <div id="busquedaBoton">
+        <input type="text" id="busqueda" placeholder="Escribe aquí...">
+      </div>
+      <div id="busquedaBoton2">
+        <button onclick="buscar()" id="boton">Buscar</button>
+      </div>
+      <section id="recetas"></section>
+    </main>
+
+<script src="index.js"></script>
+</body>
+</html>
+

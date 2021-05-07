@@ -1,0 +1,237 @@
+body {
+  color: #00ce55;
+}
+
+a {
+  color: #00ce55;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* ID BACKBROUND */
+#inicio {
+  background-color: #00ce55;
+  color: white;
+  padding: 10px;
+}
+#productos {
+  background-color: #00ce55;
+  color: white;
+  padding: 10px;
+}
+#comidas {
+  background-color: #00ce55;
+  color: white;
+  padding: 10px;
+}
+
+#nosotros {
+  background-color: #00ce55;
+  color: white;
+  padding: 10px;
+}
+
+#contacto {
+  background-color: #00ce55;
+  color: white;
+  padding: 10px;
+}
+
+/* NAVEGACIÓN */
+
+.nav-main ul {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-main ul li a:hover {
+  color: black;
+  border-bottom: 1px black solid;
+}
+
+.nav-main ul li {
+  padding: 30px;
+}
+
+/* SECCION */
+
+#section1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+#section2 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  border: black;
+  margin-top: -140px;
+  display: flex;
+  justify-content: center;
+}
+
+/* BUSCAR-PRODUCTOS */
+
+#busqueda {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+#boton {
+  background-color: #00ce55;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+}
+
+#busquedaBoton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+#busquedaBoton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARDS */
+
+#recetas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  margin: 10px;
+  border-radius: 5px;
+  width: 20%;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+}
+
+title {
+  color: black;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.tituloColor {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* BOTÓN FAVORITOS GUARDADOS */
+#botonRecetas {
+  background-color: #00ce55;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#botonFav {
+  background-color: #00ce55;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* MEDIA */
+
+@media (max-width: 500px) {
+  .nav-main ul {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    color: #00ce55;
+    font-size: 12px;
+  }
+
+  .tituloColor {
+    font-size: 9px;
+  }
+  /* ID BACKGROUND */
+  #inicio {
+    padding: 5px;
+  }
+  #productos {
+    padding: 5px;
+  }
+  #comidas {
+    padding: 5px;
+  }
+
+  #nosotros {
+    padding: 5px;
+  }
+
+  #contacto {
+    padding: 5px;
+  }
+  #section1 {
+    font-size: 25px;
+    margin-top: 300px;
+    display: block;
+    color: black;
+    align-items: center;
+    text-align: center;
+  }
+
+  #section2 {
+    font-size: 30px;
+    display: block;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+  }
+
+  #botonFav {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    
+  }
+}
